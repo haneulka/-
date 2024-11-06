@@ -3,7 +3,6 @@ def solution(board):
     dx = [-1, 1, 0, 0, -1, -1, 1, 1]
     dy = [0, 0, -1, 1, -1, 1, -1, 1]
     
-    # 지뢰 설치
     mine = []
     for i in range(N):
         for j in range(N):
